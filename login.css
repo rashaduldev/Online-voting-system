@@ -1,0 +1,27 @@
+body{
+    text-align: center;
+    font-family: serif;
+    background-color: #a6eb6e;
+}
+input{
+    width: 15%;
+    height: 30px;
+    border-radius: 1rem;
+}
+.main_part{
+    background-color: #a6eb6e;
+}
+button{
+    color: rgb(20, 20, 20);
+    background-color: #8cdbe6;
+    border-radius: 1rem;
+    width: 10%;
+    height: 30px;
+    cursor: pointer;
+}
+button:hover{
+    color: rgb(240, 239, 239);
+    background-color: #137e81;
+    font-style: italic;
+    font-size: 16px;
+}
