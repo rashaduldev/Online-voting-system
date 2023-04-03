@@ -55,7 +55,7 @@
         </div>
     </center><br>
         <button style="color: black;">Register</button><br><br>
-       Alredy User? <a href="login.html">Login Here</a>
+       Alredy User? <a href="login.php">Login Here</a>
     </form>
 </body>
 </html>
