@@ -9,7 +9,12 @@ body{
 input{
     width: 15%;
     height: 35px;
-    border-radius: 1rem;
+    border-radius: 0.5rem;
+}
+#role_part{
+    width: 15%;
+    height: 35px;
+    border-radius: 0.5rem;
 }
 .main_part{
     background-color: #a6eb6e;

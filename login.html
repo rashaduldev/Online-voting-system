@@ -8,12 +8,6 @@
     <link rel="stylesheet" href="login.css">
 </head>
 <body>
-    <style>
-          #role_part{
-        padding: 10px;
-        width: 30%;
-       }
-    </style>
     <div class="heading_part">
         <h1>Online Voting System</h1>
         <hr>
@@ -22,13 +16,10 @@
         <h4>Login</h4>
         <input type="number" name="phone" placeholder="Enter your number"><br><br>
         <input type="password" name="password" placeholder="Enter your password"><br><br>
-       <center> <div id="role_part">
-        <label>Select Role:</label>
-    <select name="role">    
+    <select name="role" id="role_part">    
         <option value="1">Voter</option>
         <option value="2">Group</option>
-    </select>
-    </div> <br></center> 
+    </select><br><br>
         <button type="submit">Login </button><br><br>
         New User? <a href="register.html">Signup</a>
     </div>
