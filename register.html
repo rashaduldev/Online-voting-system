@@ -5,25 +5,57 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Online Voting System-- Registation</title>
+    <link rel="stylesheet" href="login.css">
+   
 </head>
 <body>
+    <style>
+        #address_input{
+            width: 30%;
+        }
+       #imagepart{
+        border: 2px solid black;
+        border-radius: 5px;
+        padding: 10px;
+        width: 30%;
+
+       }
+       #imagepart input{
+        width: 50%;
+       }
+       #role_part{
+        border: 2px solid black;
+        border-radius: 5px;
+        padding: 10px;
+        width: 30%;
+       }
+    </style>
     <h1>Online voting System</h1>
     <hr>
-    <h3>Registation</h3>
-    <form action="#">
+    <form action="#" class="body_form">
+        <h3>Registation</h3>
         <input type="text" name="name" placeholder="Enter Name">
         <input type="number" name="mobile" placeholder="Enter Mobile Number"><br><br>
         <input type="password" name="password" placeholder="password">
         <input type="password" name="cpassword" placeholder="Confirm Password"><br><br>
-        <input type="text" name="address" placeholder="Address"><br><br>
-        <input type="file" name="photo" placeholder="Enter Email"><br><br>
-        <label>Select Role:</label><br>
-        <select name="role"><br><br>
+        <input id="address_input" type="text" name="address" placeholder="Address"><br><br>
+       <center>
+        <div id="imagepart">
+            <label>Upload images:</label>
+            <input type="file" name="photo" placeholder="Enter Email"><br><br>
+        </div>
+    </center>
+    <center><br>
+        <div id="role_part">
+            <label>Select Role:</label>
+        <select name="role">    
             <option value="1">Voter</option>
             <option value="2">Group</option>
-        </select><br><br>
-        <button>Register</button><br><br>
-       Alredy User? <a href="#">Login Here</a>
+        </select>
+        </div>
+    </center><br>
+        <button style="color: black;">Register</button><br><br>
+       Alredy User? <a href="login.html">Login Here</a>
     </form>
 </body>
 </html>

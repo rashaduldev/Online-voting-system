@@ -1,11 +1,14 @@
+*{
+    text-decoration: none;
+}
 body{
     text-align: center;
-    font-family: serif;
+    font-family: cursive;
     background-color: #a6eb6e;
 }
 input{
     width: 15%;
-    height: 30px;
+    height: 35px;
     border-radius: 1rem;
 }
 .main_part{
