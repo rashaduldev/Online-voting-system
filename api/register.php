@@ -29,6 +29,7 @@ if($password=$cpassword){
         </script>
         ';   
     }
+    
 }
 else{
     echo '
